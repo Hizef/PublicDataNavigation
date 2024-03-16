@@ -14,8 +14,11 @@
             <img src="./media/menu.png" alt="menu icon" class="navMenu" />
           </button>
           <nav id="myNav">
+            <a href="#">내 정보</a>
+            <a href="#">지도</a>
             <a href="#">최근 경로</a>
             <a href="#">즐겨찾기</a>
+            <a href="#">다운로드</a>
           </nav>
         </div>
         <form action="#" method="get">
@@ -28,32 +31,22 @@
               id="searchInput"
             />
 
-            <button id="searchBtn">
+            <button id="searchBtn" type="submit">
               <img src="./media/search.png" alt="search icon" id="searchImg" />
             </button>
           </div>
-        </form>
-      </div>
-      <div class="linkNav">
-        <button class="linkbtn">
-          <img src="./media/user.png" alt="user" />
-        </button>
-        <button class="linkbtn">
-          <img src="./media/gas.png" alt="gas" />
-        </button>
-        <button class="linkbtn">
-          <img src="./media/parking.png" alt="parking" />
-        </button>
-        <button class="linkbtn">
-          <img src="./media/electric.png" alt="electric" />
-        </button>
+        </form>           
+        <div class="login">
+          <a href="#" onclick="window.open(this.href, '_blank', 'width=800, height=600'); return false;">로그인&nbsp;</a>
+          <a href="#">&nbsp;&nbsp;회원가입</a>
+        </div>
       </div>
     </header>
     <main>
       <div id="mainP">
         <img src="./media/semiproj.png" alt="navigation picture" />
         <div id="mainPara">
-          <h2>Project 소개 - Navigation</h2>
+          <h2>Navigation</h2>
           <br />
           <p>
             공공 데이터 API를 이용하여 기존 존재하던 네비게이션의 문제점을
@@ -70,7 +63,7 @@
         </div>
       </div>
     </main>
-    <footer><p>Lorem Epsum</p></footer>
+    <footer><p>주소 : 경기도 성남시 중원구 성남동 3219번지, 이젠아카데미<br>TEL&#41; 0000-0000</p></footer>
     <script src="./javascript/index2.js"></script>
   </body>
 </html>
