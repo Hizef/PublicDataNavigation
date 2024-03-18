@@ -3,7 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nav 개선1</title>
+    <title>Navigation main web page</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://webfontbox.github.io/Arita/font.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://webfontbox.github.io/Arita/font.min.css"
+    />
     <link rel="stylesheet" type="text/css" href="./css/index2.css" />
   </head>
   <body>
@@ -11,66 +21,66 @@
       <div id="headerIcons">
         <div class="dropdown">
           <button class="dropbtn">
-            <img src="./media/menu.png" alt="menu icon" class="navMenu" />
+            <img src="./media/menuWhite.png" alt="menu icon" class="navMenu" />
           </button>
           <nav id="myNav">
+            <a href="#">내 정보</a>
+            <a href="#">지도</a>
             <a href="#">최근 경로</a>
             <a href="#">즐겨찾기</a>
+            <a href="#">다운로드</a>
           </nav>
         </div>
         <form action="#" method="get">
           <div id="search">
             <input
-              type="text"
+              type="search"
               name="destination"
               value=""
               placeholder="목적지 검색"
               id="searchInput"
             />
-
-            <button id="searchBtn">
+            <button id="searchBtn" type="submit">
               <img src="./media/search.png" alt="search icon" id="searchImg" />
             </button>
           </div>
         </form>
-      </div>
-      <div class="linkNav">
-        <button class="linkbtn">
-          <img src="./media/user.png" alt="user" />
-        </button>
-        <button class="linkbtn">
-          <img src="./media/gas.png" alt="gas" />
-        </button>
-        <button class="linkbtn">
-          <img src="./media/parking.png" alt="parking" />
-        </button>
-        <button class="linkbtn">
-          <img src="./media/electric.png" alt="electric" />
-        </button>
+        <div id="login">
+          <a
+            href="./login.html"
+            onclick="window.open(this.href, '_blank', 'width=800, height = 600'); return false;"
+            >로그인&nbsp;</a
+          >
+          <a href="#">&nbsp;&nbsp;회원가입</a>
+        </div>
       </div>
     </header>
     <main>
       <div id="mainP">
         <img src="./media/semiproj.png" alt="navigation picture" />
         <div id="mainPara">
-          <h2>Project 소개 - Navigation</h2>
+          <h2>Navigation</h2>
           <br />
-          <p>
-            공공 데이터 API를 이용하여 기존 존재하던 네비게이션의 문제점을
-            찾아<br />
-            보고 개선하는 프로젝트를 생각해 보았습니다.
+          <p id="mainP1">
+            공공 데이터 API를 이용하여 기존 존재하던 네비게이<br />션의 문제점을
+            찾아 보고 개선하는 프로젝트를 생각<br />해 보았습니다.
           </p>
           <br />
-          <p>
+          <p id="mainP2">
             실시간 교통 정보를 통해 최적의 경로를 제공하고, <br />도로 공사,
             사고, 교통 정체 등의 문제에 대처할 수 있습니다. <br />또한 공공
-            데이터를 활용하여 주변의 주차장 현황을 확인하고 이를 지도 <br />에
+            데이터를 활용하여 주변의 주차장 현황을 확인하고 이를 <br />지도 에
             표시하여 사용자들이 더욱 편리하게 이동할 수 있습니다.
           </p>
         </div>
       </div>
     </main>
-    <footer><p>Lorem Epsum</p></footer>
+    <footer>
+      <p>
+        주소: 경기도 성남시 중원구 성남동 3219번지, 이젠아카데미
+        <br />TEL&#41; 0000-0000
+      </p>
+    </footer>
     <script src="./javascript/index2.js"></script>
   </body>
 </html>

@@ -1,10 +1,12 @@
-const searchBtn = document.getElementById("searchBtn");
-const searchInput = document.getElementById("searchInput");
+// searchInput(검색창)에 엔터를 해도 전송이 되게 하는 코드
 
-searchBtn.addEventListener("click", () => {
-  if (searchInput.style.display === "none") {
-    searchInput.style.display = "block";
-  } else {
-    searchInput.style.display = "none";
+function submitTextarea(e) {
+  if (e.keyCode === 13) {
+    alert("전송");
   }
-});
+}
+
+const searchInput = document.getElementById("searchInput");
+searchInput.addEventListener("keyup", (event) => submitTextarea(event));
+
+// 이하 작성

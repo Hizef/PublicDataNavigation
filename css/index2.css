@@ -40,73 +40,59 @@ form {
 }
 
 #search {
-  width: 180vh;
-  height: 8.5vh;
   display: flex;
-  right: 1%;
-}
-
-#searchBtn {
-  width: 6.3vh;
-  height: 6.3vh;
-  background-color: #005a9c;
-  border: 2px solid black;
-  padding: 0%;
-  display: flex;
-  position: absolute;
-  right: 6.4%;
-}
-
-#searchImg {
-  width: 6.3vw;
-  height: 6.3vh;
-  padding: 0%;
-  margin: 0%;
-  cursor: pointer;
 }
 
 #searchInput {
   width: 65vw;
   font-size: 24px;
   height: 5.3vh;
-  display: none;
   position: absolute;
-  left: 20%;
+  left: 15%;
+  top: 3.8%;
+  border-radius: 14px;
+  padding-left: 3.3vw;
 }
 
-/* 2번째 줄 */
-
-.linkNav {
-  display: flex;
-  justify-content: space-around;
-  background-color: #5282cf;
-  margin: auto;
-  padding: 1vw;
-}
-
-.linkbtn {
-  width: 15vh;
-  height: 15vh;
-  background-color: #d1cfe2;
-  border: 2px solid black;
-  border-radius: 30px;
+/* left: -2.8%; top +0.1%; 차이 */
+#searchBtn {
+  width: 5.8vh;
+  height: 5.7vh;
+  background-color: transparent;
+  border: none;
+  border-radius: 14px;
   padding: 0%;
-  font-size: 16px;
+  display: flex;
+  position: absolute;
+  left: 15.3%;
+  top: 3.9%;
+}
+
+#searchImg {
+  width: 5.8vw;
+  height: 5.8vh;
+  padding: 0%;
+  margin: 0%;
   cursor: pointer;
 }
 
-.linkbtn:hover {
-  background-color: #7ec4cf;
+/* 검색창 오른쪽 */
+#login {
+  display: flex;
+  position: absolute;
+  top: 5%;
+  right: 4.8%;
+}
+
+#login a {
+  display: flex;
+  color: white;
+  text-decoration: none;
 }
 
 .dropdown {
   position: relative;
   display: inline-block;
-}
-
-.linkbtn img {
-  width: 12vh;
-  height: 12vh;
 }
 
 #myNav {
@@ -146,34 +132,50 @@ a {
 /* 본문 */
 
 main {
-  background-color: rgb(242, 236, 227);
+  background-color: #f2ebe5;
+  padding-bottom: 3%;
+  justify-content: space-around;
 }
 
 #mainP {
   display: flex;
-  vertical-align: top;
+
   font-weight: bold;
   justify-content: space-around;
 }
 
 #mainP img {
   display: inline-block;
-  width: 30vw;
-  height: 40vw;
+  width: 21vw;
+  height: 28vw;
+  margin-top: 3%;
+  margin-left: 3%;
 }
 
 #mainPara h2 {
   padding-top: 3vw;
-  padding-right: 4vw;
+  margin: 1% 0%;
   display: inline-block;
-  color: rgb(80, 107, 148);
-  font-family: "Beautifully Delicious Script";
-  font-size: 6.5vh;
+  color: black;
+  font-family: "Arita buri";
+  font-size: 12vh;
+  font-weight: 500;
 }
 
-#mainPara p {
+#mainPara #mainP1 {
   display: inline-block;
+  font-family: "Arita buri";
+  font-size: 4vh;
+  font-weight: 300;
+  color: rgb(36, 36, 36);
+}
+
+#mainPara #mainP2 {
+  display: inline-block;
+  font-family: "Arita buri";
   font-size: 2.5vh;
+  font-weight: 300;
+  color: rgb(36, 36, 36);
 }
 
 /* footer */
