@@ -43,7 +43,7 @@ form {
 }
 
 #search {
-<<<<<<< HEAD
+  
   display: flex;
 }
 
@@ -156,7 +156,6 @@ form {
 }
 
 /* 리스트 드롭다운 */
->>>>>>> 7fe3698298afe6ebe8ecc5bc81987f96dfa57670
 #myNav {
     display: none;
     position: absolute;
@@ -194,7 +193,6 @@ a {
 /* 본문 */
 
 main {
-<<<<<<< HEAD
   background-color: #f2ebe5;
   padding-bottom: 3%;
   justify-content: space-around;
@@ -239,7 +237,6 @@ main {
   font-size: 2.5vh;
   font-weight: 300;
   color: rgb(36, 36, 36);
-=======
     background-color: rgb(242, 236, 227);
 }
 
@@ -268,7 +265,6 @@ main {
 #mainPara p {
     display: inline-block;
     font-size: 2.5vh;
->>>>>>> 7fe3698298afe6ebe8ecc5bc81987f96dfa57670
 }
 
 /* footer */
