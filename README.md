@@ -86,9 +86,9 @@
 
 6. 생성되고 나서 "…or create a new repository on the command line"을 개발 도구 터미널에 한 줄씩 작성
 
-> git init
-> git add README.md
-> git commit -m "first commit"
-> git branch -M main
-> git remote add origin https://github.com/Hizef/111.git
-> git push -u origin main
+> 1. git init
+> 2. git add README.md
+> 3. git commit -m "first commit"
+> 4. git branch -M main
+> 5. git remote add origin https://github.com/Hizef/111.git
+> 6. git push -u origin main
