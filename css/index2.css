@@ -1,196 +1,200 @@
 body {
-    width: 100%;
-    height: 100%;
-    margin: 0px auto;
-    padding: 0%;
+  width: 100%;
+  height: 100%;
+  margin: 0px auto;
+  padding: 0%;
 }
 
 header {
-    background-color: #005a9c;
-    margin: 0px;
-    width: 100%;
-    height: 93px;
+  background-color: #005a9c;
+  margin: 0px;
+  width: 100%;
+  height: 93px;
 }
 
 /* 1번째 줄 */
 
 #headerIcons {
-    display: flex;
-    margin: 0px;
+  display: flex;
+  position: relative;
+  margin: 0px;
 }
 
 .dropbtn img {
-    width: 57px;
-    height: 57px;
-    cursor: pointer;
+  width: 57px;
+  height: 57px;
+  cursor: pointer;
 }
 
 .dropbtn {
-    background-color: #005a9c;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
+  background-color: #005a9c;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
 }
 
 /* 검색 기능 */
 
 form {
-    width: 1011px;
-    padding-top: 16px;
-    padding-left: 200px;
-    display: inline-flex;
+  width: 1011px;
+  padding-top: 16px;
+  padding-left: 200px;
+  display: inline-flex;
 }
 
 #search {
-  display: flex;
+display: flex;
 }
 
 #searchInput {
-  width: 950px;
-  font-size: 24px;
-  height: 57px;
-  border-radius: 14px;
-  padding-left: 59px;
+width: 950px;
+font-size: 24px;
+height: 57px;
+border-radius: 14px;
+padding-left: 59px;
 }
 
 /* left: -2.8%; top +0.1%; 차이 */
 #searchBtn {
-  width: 59px;
-  height: 59px;
-  background-color: transparent;
-  border: none;
-  border-radius: 14px;
-  padding: 0%;
-  display: flex;
-  position: absolute;
-  left: 289px;
+width: 59px;
+height: 59px;
+background-color: transparent;
+border: none;
+border-radius: 14px;
+padding: 0%;
+display: flex;
+position: absolute;
+left: 289px;
 }
 
 #searchImg {
-  width: 57px;
-  height: 57px;
-  padding: 0%;
-  margin: 0%;
-  cursor: pointer;
+width: 57px;
+height: 57px;
+padding: 0%;
+margin: 0%;
+cursor: pointer;
 }
 
 /* 검색창 오른쪽 */
 #login {
-display: inline-block;
-margin-left: 350px;
-margin-top: 30px;
+  display: inline-block;
+  width: 180px;
+  height: 25px;
+  position: absolute;
+  right: 3%;
+  top: 30px;
 }
 
 #login a {
-  display: inline-flex;  
-  color: white;
-  text-decoration: none;
+display: inline-block;
+color: white;
+text-decoration: none;
 }
 
 
 /* 리스트 드롭다운 */
 #myNav {
-    display: none;
-    position: absolute;
-    left: 0px;
-    background-color: #d1cfe2;
-    min-width: 200px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
+  display: none;
+  position: absolute;
+  left: 0px;
+  background-color: #d1cfe2;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
 }
 
 #myNav a {
-    color: black;
-    padding: 30px 16px;
-    text-decoration: none;
-    display: block;
+  color: black;
+  padding: 30px 16px;
+  text-decoration: none;
+  display: block;
 }
 
 #myNav a:hover {
-    background-color: #9cacde;
+  background-color: #9cacde;
 }
 
 .dropdown {
-  position: relative;
-  display: inline-block;
+position: relative;
+display: inline-block;
 }
 
 .dropdown:hover #myNav {
-    display: block;
+  display: block;
 }
 
 .dropdown:hover .dropbtn {
-    background-color: #005a9c;
+  background-color: #005a9c;
 }
 
 a {
-    font-size: large;
-    font-weight: bold;
+  font-size: large;
+  font-weight: bold;
 }
 
 /* 본문 */
 
 main {
-  background-color: #f2ebe5;
-  padding-bottom: 3%;
-  justify-content: space-around;
+background-color: #f2ebe5;
+padding-bottom: 3%;
+justify-content: space-around;
 }
 
 #mainP {
-  display: flex;
+display: flex;
 
-  font-weight: bold;
-  justify-content: space-around;
+font-weight: bold;
+justify-content: space-around;
 }
 
 #mainP img {
-  display: inline-block;
-  width: 21vw;
-  height: 28vw;
-  margin-top: 3%;
-  margin-left: 3%;
+display: inline-block;
+width: 21vw;
+height: 28vw;
+margin-top: 3%;
+margin-left: 3%;
 }
 
 #mainPara h2 {
-  padding-top: 3vw;
-  margin: 1% 0%;
-  display: inline-block;
-  color: black;
-  font-family: "Arita buri";
-  font-size: 12vh;
-  font-weight: 500;
+padding-top: 3vw;
+margin: 1% 0%;
+display: inline-block;
+color: black;
+font-family: "Arita buri";
+font-size: 12vh;
+font-weight: 500;
 }
 
 #mainPara #mainP1 {
-  display: inline-block;
-  font-family: "Arita buri";
-  font-size: 4vh;
-  font-weight: 300;
-  color: rgb(36, 36, 36);
+display: inline-block;
+font-family: "Arita buri";
+font-size: 4vh;
+font-weight: 300;
+color: rgb(36, 36, 36);
 }
 
 #mainPara #mainP2 {
-  display: inline-block;
-  font-family: "Arita buri";
-  font-size: 2.5vh;
-  font-weight: 300;
-  color: rgb(36, 36, 36);
-    background-color: rgb(242, 236, 227);
+display: inline-block;
+font-family: "Arita buri";
+font-size: 2.5vh;
+font-weight: 300;
+color: rgb(36, 36, 36);
+  background-color: rgb(242, 236, 227);
 }
 
 /* footer */
 
 footer {
-    background-color: rgb(80, 107, 148);
-    width: 100%;
-    height: 20%;
+  background-color: rgb(80, 107, 148);
+  width: 100%;
+  height: 20%;
 }
 
 footer p {
-    color: white;
-    text-align: center;
-    padding: 3%;
-    margin: 0%;
+  color: white;
+  text-align: center;
+  padding: 3%;
+  margin: 0%;
 }
